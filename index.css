@@ -1,0 +1,33 @@
+#title1{
+    text-align: center;
+}
+input{
+    width:150px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px ;
+}
+#container{
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    list-style: disk;
+}
+button{
+    background-color: chocolate;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+button:hover{
+    transform: scale(1,1.3);
+    background-color: greenyellow;
+}
+#input-wrapper{
+    margin-top: 15px;
+}
+#container2{
+    margin-top: 150px;
+}

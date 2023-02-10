@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Movie Library</title>
+</head>
+<body onload="countByGenre()">
+    <div id="container">
+        <div id="title1">
+            <h1>Movie Library</h1>
+        </div>
+        <hr>
+        <div id="input-wrapper">
+            <input type="text" name="" id="title" value="" placeholder="Enter Movie Name" >
+            <input type="text" id="genre" value="" placeholder="Enter Genre">
+            <button id="search" onclick="displaySearch()">Search Movie</button>
+            
+            <button id="sortByTitle" onclick="sortByTitle()">Sort By Title</button>
+            <button id="sortByGenre" onclick="sortByGenre()">Sort By Genre</button>
+        </div>
+        <div id="showlist">
+            <ul id="list">
+
+            </ul>
+        </div>
+        <hr>
+        <h1>Count By Genre</h1>
+        <div>
+            <ul id="object">
+
+            </ul>
+        </div>
+        <button onclick="countByGenre()" id="button">show By Genre</button>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
